@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sohaib Aftab | Academic Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --ink: #1a1a2e;
+            --muted: #5a6a7a;
+            --rule: #d8dde3;
+            --accent: #1a4a8a;
+            --bg: #f9f8f6;
+            --surface: #ffffff;
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            font-size: 15px;
+            line-height: 1.75;
+            color: var(--ink);
+            background-color: var(--bg);
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 60px 24px 80px;
+        }
+
+        /* ── Header ─────────────────────────────────── */
+        header {
+            padding-bottom: 32px;
+            border-bottom: 1px solid var(--rule);
+            margin-bottom: 48px;
+        }
+
+        .name-row {
+            display: flex;
+            align-items: baseline;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        h1 {
+            font-family: 'EB Garamond', Georgia, serif;
+            font-size: 2.4rem;
+            font-weight: 600;
+            color: var(--ink);
+            margin: 0;
+            letter-spacing: -0.3px;
+        }
+
+        .verified-badge {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--accent);
+            border: 1px solid var(--accent);
+            padding: 2px 8px;
+            border-radius: 3px;
+            white-space: nowrap;
+            opacity: 0.85;
+        }
+
+        .affiliation {
+            margin-top: 10px;
+            font-size: 0.92rem;
+            color: var(--muted);
+            line-height: 1.5;
+        }
+
+        .affiliation strong {
+            color: var(--ink);
+            font-weight: 500;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px 24px;
+            margin-top: 18px;
+        }
+
+        .contact-info a {
+            font-size: 0.88rem;
+            color: var(--muted);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: color 0.15s, border-color 0.15s;
+        }
+
+        .contact-info a:hover {
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+        }
+
+        .contact-sep {
+            color: var(--rule);
+            user-select: none;
+        }
+
+        /* ── Sections ────────────────────────────────── */
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.72rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: var(--muted);
+            margin: 0 0 18px 0;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--rule);
+        }
+
+        p {
+            margin: 0 0 1em;
+            color: #2e3a47;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* ── Publications ────────────────────────────── */
+        .pub-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .pub-item {
+            display: grid;
+            grid-template-columns: 28px 1fr;
+            gap: 0 12px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--rule);
+        }
+
+        .pub-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .pub-index {
+            font-size: 0.8rem;
+            color: var(--muted);
+            padding-top: 2px;
+            text-align: right;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .pub-title {
+            font-weight: 500;
+            display: block;
+            color: var(--ink);
+            margin-bottom: 3px;
+        }
+
+        .pub-authors {
+            font-size: 0.88rem;
+            color: var(--muted);
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        .pub-venue {
+            font-size: 0.86rem;
+            font-style: italic;
+            color: #7a8a9a;
+        }
+
+        /* ── Footer ──────────────────────────────────── */
+        footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid var(--rule);
+            text-align: center;
+            font-size: 0.8rem;
+            color: #b0bac4;
+            letter-spacing: 0.02em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="name-row">
+            <h1>Sohaib Aftab</h1>
+            <span class="verified-badge">Official Profile</span>
+        </div>
+
+        <div class="affiliation">
+            <strong>B.Tech., Computer Science and Engineering</strong><br>
+            Indian Institute of Information Technology, Design and Manufacturing Kurnool
+        </div>
+
+        <nav class="contact-info">
+            <a href="mailto:122CS0075@iiitk.ac.in">122CS0075@iiitk.ac.in</a>
+            <span class="contact-sep">·</span>
+            <a href="https://github.com/HattySohaib" target="_blank" rel="noopener">GitHub</a>
+            <!-- <span class="contact-sep">·</span>
+            <a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a> -->
+        </nav>
+    </header>
+
+    <section>
+        <h2>Research Overview</h2>
+        <p>
+            I am an undergraduate student at the <strong>Indian Institute of Information Technology, Design and
+                Manufacturing Kurnool</strong>. My current research focuses on hand gesture recognition and dynamic
+            gesture data collection. This page serves as a public record of my professional affiliations and
+            contact details for peer-review verification.
+        </p>
+    </section>
+
+    <section>
+        <h2>Research Interests</h2>
+        <p>Computer Vision &nbsp;·&nbsp; Human–Computer Interaction &nbsp;·&nbsp; Gesture Recognition &nbsp;·&nbsp;
+            Machine Learning</p>
+    </section>
+
+    <!-- <section>
+        <h2>Publications</h2>
+        <ul class="pub-list">
+            <li class="pub-item">
+                <span class="pub-index">[1]</span>
+                <div>
+                    <span class="pub-title">Add your paper title here</span>
+                    <span class="pub-authors">Sohaib Aftab, Co-author Name</span>
+                    <span class="pub-venue">Conference / Journal Name, Year</span>
+                </div>
+            </li>
+        </ul>
+    </section> -->
+
+    <footer>
+        Updated February 2026 &nbsp;·&nbsp; Hosted on GitHub Pages
+    </footer>
+
+</body>
+
+</html>
